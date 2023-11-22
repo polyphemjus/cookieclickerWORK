@@ -1922,7 +1922,7 @@ Game.Launch=function()
 		if (typeof PRELOAD!=='undefined') Game.Loader.loaded=PRELOAD(Game.Init);
 		else Game.Loader.loaded=callback;
 		Game.Loader.Load(['filler.png']);
-	
+	}
 	Game.timedout=false;
 	Game.Timeout=function()
 	{
